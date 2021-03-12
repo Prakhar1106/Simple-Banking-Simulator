@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Apply for Debit_Card</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+         <header>Ram Bharose Bank</header>
+    
+     <nav>
+    <div class="nav-wrapper">
+        <img src="img/bank.jpg" class="brand-logo" height="60" width="100" />Logo
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        
+        <li><a href="index.html">Logout</a></li>
+      </ul>
+    </div>
+  </nav>
+    
+    <div style="position: relative; left: 25%; width: 100%;">
+    <div class="row center" >
+    <div class="col s12 m6">
+      <div class="card white white-text">
+        <div class="card-content black-text">
+            <span class="card-title"><b style="color:red;">Create Account</b></span>
+          <div class="row">
+        <form action="debitcard.jsp" method="post" class="col s12">
+            <table>
+                <tr><td> Account Number: </td>
+                <td><input type="number" name="acc" id="acc" min="20200" maxlength="7" required></td>
+                </tr>
+                <tr><td> Enter your ATM PIN: </td>
+                <td><input type="password" name="pin" id="pin" required></td>
+                </tr>
+                <tr><td> Choose Card Type: </td>
+                <td>
+                   
+                <select name="cards" class="browser-default">
+                <option value="Rupay">Rupay</option>
+                <option value="Master">MasterCard</option>
+                <option value="Visa">Visa</option>
+                </select>
+                </td>
+                </tr>
+                <tr><td><input type="submit" class="btn waves-effect waves-light" value="Apply"></td>
+                </tr>
+                </table>
+           
+
+
+        </form>
+    </div>
+    </div>
+      </div></div></div></div>
+    
+
+    <footer class="page-footer"> 
+		<div class="footer-copyright">
+		<div class="container">
+			Copyright 2020. All right reserved <br>
+			Secure Payment Gateway
+		<a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+		</div>
+	  </div>
+
+	</footer>
+    </body>
+</html>

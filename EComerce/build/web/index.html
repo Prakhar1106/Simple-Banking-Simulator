@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ram Bharose Bank</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    
+        
+    <header>Ram Bharose Bank</header>
+    
+     <nav>
+    <div class="nav-wrapper">
+        <img src="img/bank.jpg" class="brand-logo" height="60" width="100" />Logo
+     
+    </div>
+  </nav>
+    
+    <div style="position: relative; left: 25%; width: 100%;">
+    <div class="row center" >
+    <div class="col s12 m6">
+      <div class="card white white-text">
+        <div class="card-content black-text">
+            <span class="card-title"><b style="color:red;">Login to Account</b></span>
+          <div class="row">
+               <form action="myAccount.jsp" method="post" class="col s12">
+                    <table>
+                        <tr><td> Account Number: </td>
+                            <td><input type="number" name="name" id="name" min="20200" maxlength="7" required></td>
+                        </tr>
+                        <tr><td> Atm Pin: </td>
+                        <td><input type="password" name="pin" required></td>
+                        </tr>
+                         <tr><td><input type="submit" class="btn waves-effect waves-light" value="Login"></td>
+                        </tr>
+                        <tr>
+                            <td>Not have Account? <a href="createAccount.html"><b>Create Account</b></a></td>
+                        </tr>   
+                    </table>
+                </form>
+           </div>
+    </div>
+      </div></div></div></div>    
+    
+
+    <footer class="page-footer"> 
+		<div class="footer-copyright">
+		<div class="container">
+			Copyright 2020. All right reserved <br>
+			Secure Payment Gateway
+		<a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+		</div>
+	  </div>
+
+	</footer>
+</body>
+</html>

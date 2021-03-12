@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+         <header>Ram Bharose Bank</header>
+    
+     <nav>
+    <div class="nav-wrapper">
+        <img src="img/bank.jpg" class="brand-logo" height="60" width="100" />Logo
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        
+        <li><a href="index.html">Logout</a></li>
+      </ul>
+    </div>
+  </nav>
+    
+    <div style="position: relative; left: 25%; width: 100%;">
+    <div class="row center" >
+    <div class="col s12 m6">
+      <div class="card white white-text">
+        <div class="card-content black-text">
+            <span class="card-title"><b style="color:red;">Create Account</b></span>
+          <div class="row">
+        <form action="AccCreation.jsp" method="post" class="col s12">
+            <table>
+                <tr><td> Customer Name: </td>
+                <td><input type="text" name="name" id="name" required></td>
+                </tr>
+                <tr><td> Father Name: </td>
+                <td><input type="text" name="fname" id="fname" required></td>
+                </tr>
+                <tr><td> Address: </td>
+                <td><input type="text" name="addr" id="addr" required></td>
+                </tr>
+                <tr><td> Pincode: </td>
+                <td><input type="text" name="pincode" id="pin" maxlength="6" required></td>
+                </tr>
+                <tr><td>  Mobile No: </td>
+                <td><input type="text" name="mob" id="mob" maxlength="10" required></td>
+                </tr>
+                <tr>
+                    <td>D.O.B. :</td>
+                    <td><input type="date" name="dob" id="dob"></td>
+                </tr>
+                <tr>
+					<td>Gender: </td>
+					<td>
+						<label>
+							<input name="gender" type="radio" value="male" required/>
+							<span>Male</span> 
+						</label>
+						<label>
+							<input name="gender" type="radio" value="female" required/>
+							<span>Female</span> 
+						</label>
+					</td>
+				</tr>
+                <tr><td>  Deposit: </td>
+                <td><input type="number" name="deposit" id="deposit" maxlength="6" required></td>
+                </tr>
+                <tr><td>  ATM PIN: </td>
+                    <td><input type="password" name="pass" id="pass" maxlength="4" required></td>
+                </tr>
+                <tr><td><input type="submit" class="btn waves-effect waves-light" value="Save"></td>
+                </tr>
+                
+                            
+            </table>
+           
+
+
+        </form>
+    </div>
+    </div>
+      </div></div></div></div>
+    
+
+    <footer class="page-footer"> 
+		<div class="footer-copyright">
+		<div class="container">
+			Copyright 2020. All right reserved <br>
+			Secure Payment Gateway
+		<a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+		</div>
+	  </div>
+
+	</footer>
+    </body>
+</html>

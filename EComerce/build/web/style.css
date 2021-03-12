@@ -1,0 +1,25 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 20, 2020, 2:46:35 PM
+    Author     : HP
+*/
+
+header{
+    background-color: blueviolet;
+    padding: 20px;
+    border: 10px;
+    margin: 10px ;
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+
+table tr td{
+padding: 15px;
+}
